@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Галерея Времен Года</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dynamic-bg" id="dynamicBg"></div>
+    <div class="container">
+        <h1 class="gallery-title">Галерея времен года</h1>
+        <div class="gallery">
+            <div class="carousel">           
+                <div class="side-image left" id="leftImage">
+                    <img src="" alt="prev">
+                </div>
+                <div class="center-image" id="centerImage">
+                    <img src="" alt="main">
+                </div>
+                <div class="side-image right" id="rightImage">
+                    <img src="" alt="next">
+                </div>
+            </div>
+            <div class="caption" id="caption">Весна</div>
+        </div>
+        <div class="controls">
+            <button class="nav-btn" id="prevBtn">◀ Назад</button>
+            <button class="nav-btn" id="nextBtn">Далее ▶</button>
+            
+        </div>
+        <div class="image-counter" id="imageCounter">Изображение 1 из 4</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
